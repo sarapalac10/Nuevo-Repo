@@ -1,0 +1,85 @@
+body {
+    background: url("../IMG/banner-index3.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+
+}
+
+a {
+    color: #b7b7a4;
+    text-decoration-line: none;
+    text-shadow: white;  
+}
+
+a:hover {
+    color: #b7b7a4;
+    font-size: 20px;
+}
+
+.imgRedonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid #ffe8d6;
+
+}
+
+h1{
+    color: #3f4238;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #a5a58d;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+    color: #a5a58d;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parrafo1{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: #ffe8d6;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #a5a58d;
+    text-align: justify;
+    font-size: 20px;
+}
+
+footer {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(15px);
+    font-size: 15px;
+}
